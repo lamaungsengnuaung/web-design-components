@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OminoFood Hero Section</title>
+    <style>
+      /* Google Font */
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+      html {
+        font-family: 'Rubik', sans-serif;
+        color: #444;
+      }
+      header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 89, 112, 0.6)
+          ),
+          url(./hero.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+      .header-container {
+        width: 1200px;
+        margin: inherit;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        /* background-color: violet; */
+        transform: translate(-50%, -50%);
+      }
+      .header-container-inner {
+        width: 50%;
+        /* background-color: pink; */
+      }
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        /* background-color: green; */
+      }
+      h2 {
+        font-size: 50px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600px;
+        background-color: #e48118;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+      section {
+        padding: 96px 0;
+        /* background-color: red; */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>Logo</div>
+        <div>Navigation</div>
+      </nav>
+      <div class="container header-container">
+        <div class="header-container-inner">
+          <h1>A healthy meal delivered to your door, every singl day</h1>
+          <p>
+            The smart 355-days-par-year food subscription that will make you eat
+            healthy again. Tailord to your personal tastes and nutritional needs
+            .
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div>
+        <h2>Random Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis vel
+          sequi nulla voluptas reprehenderit suscipit, rerum dolor earum
+          blanditiis. Voluptatem in nisi facere deserunt officiis reiciendis
+          pariatur, assumenda quidem velit!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
